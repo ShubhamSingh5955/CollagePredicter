@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.collagepredicter.AddActivity">
+
+    <include
+        android:id="@+id/addActivity_toolbar"
+        layout="@layout/app_bar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="College Name"
+        android:layout_margin="4dp"
+        android:id="@+id/editText_add_CollegeName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Branch Name"
+        android:layout_margin="4dp"
+        android:id="@+id/editText_add_branchName"/>
+    <EditText
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Closing Rank"
+        android:inputType="number"
+        android:id="@+id/editText_add_rank"/>
+    <Button
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="upload data"
+        android:id="@+id/upload_button"/>
+
+</LinearLayout>

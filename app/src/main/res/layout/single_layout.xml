@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:orientation="vertical"
+    >
+
+        <TextView
+            android:id="@+id/single_college_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="18dp"
+            android:elevation="1dp"
+            android:text="College"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+             />
+
+
+            <TextView
+                android:layout_marginStart="18dp"
+                android:id="@+id/single_branch_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="body"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                />
+
+    <TextView
+        android:id="@+id/single_rank_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="rank"
+        android:textSize="16dp"
+        android:layout_marginStart="18dp"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "965250239436",
+    "firebase_url": "https://collagepredicter.firebaseio.com",
+    "project_id": "collagepredicter",
+    "storage_bucket": "collagepredicter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965250239436:android:89c11d86fb464532",
+        "android_client_info": {
+          "package_name": "com.example.dell.collagepredicter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965250239436-ia26rg9icp13ijmarrrna71e9d0mhtdl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.collagepredicter",
+            "certificate_hash": "77e3043a141261b6740e16a3fbc4748c40fed57c"
+          }
+        },
+        {
+          "client_id": "965250239436-a7i5dk0mplu852cr5kith89506kaoib1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5jjFsSshTHDPFFgy4VBFp_uTJI3wuqTs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965250239436-a7i5dk0mplu852cr5kith89506kaoib1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
